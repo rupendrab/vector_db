@@ -1,0 +1,31 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Notebook checkpoints (keep notebooks themselves)
+.ipynb_checkpoints/
+
+# Local models and generated datasets
+/models/
+*.parquet
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+/set_env.sh
+.streamlit/secrets.toml
+
+# Logs and OS files
+*.log
+.DS_Store
